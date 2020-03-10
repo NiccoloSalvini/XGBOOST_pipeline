@@ -5,7 +5,7 @@ The building comes after some preprocessing, in particular
 - 2 different encoding (mean and one hot)
 - correlation analysis and following feature dropping
 
-## Main Noticeble:
+## Main Noticeable:
 - single parameter evaluation and elbow method choice for a neg loss function
   - n_estimators number of boosted trees to fit. To a point, more are better but will take more time.
   - max_depth Maximum tree depth for base learners. Used to control overfitting.
